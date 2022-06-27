@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(68, 207, 68, 0.61);  
+}
+
+h1{
+    color: rgb(4, 121, 4);
+}
+
+h1#principal{
+    color: white;
+    text-align: center;
+    background-color: black;
+    border-radius: 30px;
+}
+
+h2{
+    color:black;
+    text-align: justify;
+}
+
+p{
+    text-align:center;
+    color: black;
+    
+}
+
+.basic{
+    text-align:justify;
+    color: rgb(165, 87, 87);
+    
+}
+
+.intermediario{
+    text-align:justify;
+    color: rgb(145, 136, 17);
+}
+
+.avancado{
+    text-align:justify;
+    color: rgb(255, 4, 4);
+}
+
+.aprendendo{
+    text-shadow: 0.1px 8px 7px  black;
+    text-align: center;
+    border-radius: 30px;
+    background-color: white;
+    color: rgb(8, 8, 128);
+}
+.destaque{
+    background-color: rgba(218, 218, 72, 0.815);
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif
+}
+
+.niveis{
+    background-color: white;
+    width:250px ;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    
+    
+}

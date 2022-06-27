@@ -1,0 +1,89 @@
+@charset "UTF-8";
+@font-face{
+    font-family: ;
+}
+
+body{
+    background-color: rgb(190, 190, 190);
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+
+header{
+    background-color: rgb(33, 36, 230);
+    padding: 1px 30px;
+    margin: 0px 0px 10px 0px;
+    color: white;
+    width: auto;
+    height: 110px;
+}
+nav{
+    background-color: darkgray;
+    box-shadow: 3px 2.5px 3px black;
+    width: 170px;
+    
+}
+span{
+    text-align: center;
+    padding-top: 0px;
+}
+a{
+    color: white;
+    text-decoration: none ;
+}
+
+a:hover{
+    color: blueviolet;
+}
+main{
+    background-color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-indent: 10px;
+    margin: 0px 50px 15px;
+    border-radius: 20px;
+    font-size: medium;
+    box-shadow:3px 3px 10px rgba(0, 0, 0, 0.5) ;
+}
+
+.texto_principal{
+    font-family: Arial, sans-serif;
+    font:normal;
+    text-align: justify;
+    text-indent: 3em
+}
+.info_texto{
+    text-decoration: underline;
+    text-align: right;
+    font-family:Times, serif;
+    font-size: small;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 1px;
+    text-align: center;
+
+} 
+#rodape{
+    text-shadow: 1px 2px 5px rgb(255, 9, 9);
+}
+footer > p{
+    margin: 0px 0px 1px 0px;
+}
+.link_rodape{
+    text-decoration: underline;
+    text-decoration-color:red;
+}
+a.link_rodape:hover{
+    color: lightgray;
+}
+div#bola{
+    height: 300px;
+    width: 300px;
+    border-radius:50%;
+    background-color: rgb(255, 30, 30);
+    margin:30px;
+    
+
+}
