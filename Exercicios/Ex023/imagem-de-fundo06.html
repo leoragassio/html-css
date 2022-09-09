@@ -6,22 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tamanho da imagem de fundo</title>
     <style>
+        *{
+            margin:10px;
+        }
         body{
             height:100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-repeat: no-repeat;
             background-position: center center;
             background-color: rgb(32, 112, 150);
             background-size:cover;
+            background-attachment: fixed;
+            text-align: justify;*/
+
+            /*
+            SHORTHAND DE BACKGROUND
+            
+            color > image > position > repeat > size > attachment
+            ⬇      ⬇     ⬇     ⬇
+            */
+            background:rgb(32, 112, 150) url('imagens/wallpaper005.jpg') center center/cover no-repeat fixed ;
+            
+        
         }
         main{
             background-color: white;
-            width: 400px;
+            min-width: 100px;
+            max-width: 500px;
             padding: 15px;
             margin:auto;
-            border: 1px solid darkblue;
+            border: 3px solid darkblue;
             border-radius: 10px;
+
+        }
+        p{
+            text-indent: 1.3em;
         }
     </style>
 </head>
