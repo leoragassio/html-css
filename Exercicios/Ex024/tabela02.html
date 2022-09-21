@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grandes</title>
+    <style>
+        *{margin: auto;
+         text-align: center;
+        padding:0px;
+        
+        }
+        body{
+            font-family: Arial,sans-serif;
+        }
+        table{
+            width: 400px;
+            border-collapse:collapse;
+            position: relative;  
+        }
+        thead > tr > th{
+            position: sticky;/*Sticky é semelhante a grudar*/
+            top:-1px;/* parte de cima */
+            background-color:white; /*background color do tr e th*/
+        }
+        tbody > tr:nth-child(even){
+            background-color: rgb(30, 30, 30);
+            color:white;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 10px;
+        }                    
+        .numero{
+            text-align: right;
+        }
+        th.população{
+            width: 100px;
+        }
+        .imagem_center{
+           text-align: center;
+        }
+        header{
+            background-color: rgb(221, 110, 19);
+            margin-bottom: 30px;
+        }
+        article{
+            width: 500px;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tabelas</h1>
+        <p>Teste usando tabela grande em html e css</p>
+    </header>
+    <h1>Uso de tabelas grandes</h1>
+    <p>Usando Table, head, body, foot.</p>
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="rol">
+                    Estado 
+                </th>
+                <th class="população" scope="col">
+                    População
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero"> 46 649 132</td>
+            </tr>
+            <tr>
+                <td>
+                    Minas Gerais
+                </td>
+                <td class="numero">
+                    21 411 923
+                </td>
+                
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 463 349</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14 985 284</td>
+            </tr>
+            <tr>
+                <td>
+                    Paraná
+                </td>
+                <td class="numero">
+                    11 697 484 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Rio Grande do Sul
+                </td>
+                <td class="numero">
+                    11 466 630
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Pernambuco
+                </td>
+                <td class="numero">
+                    9 674 793
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Ceará
+                </td>
+                <td class="numero"> 
+                    9 240 580
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Pará
+                </td>
+                <td class="numero">
+                    8 777 124
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Santa Catarina
+                </td>
+                <td class="numero">
+                    7 338 473
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Goiás
+                </td>
+                <td class="numero">
+                    7 206 589
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Maranhão
+                </td>
+                <td class="numero">
+                    7 153 262
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Amazonas
+                </td>
+                <td class="numero">
+                    4 269 995
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Espirito Santo
+                </td>
+                <td class="numero">
+                    4 108 508
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Paraíba
+                </td>
+                <td class="numero">
+                    4 059 905
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Mato Grosso
+                </td>
+                <td class="numero">
+                    3 560 903
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Alagoas
+                </td>
+                <td class="numero">
+                    3 265 351
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Piauí
+                </td>
+                <td class="numero">
+                    3 229 290
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    Distrito Federal
+                </td>
+                <td class="numero">
+                    3 094 325
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Mato Grosso do Sul
+                </td>
+                <td class="numero">
+                    2 839 188
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Sergipe
+                </td>
+                <td class="numero">
+                    2 338 474
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Rondônia
+                </td>
+                <td class="numero">
+                    1 815 278
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Tocantins
+                </td>
+                <td class="numero">
+                    1 607 363
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Acre
+                </td>
+                <td class="numero">
+                    906 876
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Amapá
+                </td>
+                <td class="numero">
+                    887 613
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Roraima
+                </td>
+                <td class="numero">
+                    652 713
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row"> 
+                    Total de Habitantes
+                </th>
+                <td class="numero">
+                    <strong>210.000.000</strong>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p><strong>Para o efeito zebrado da tabela foi usado o seguinte codigo:</strong></p>
+        <div class="imagem_center"><code><img src="img/img1.jpg" alt="codigo da tabela "></code></div>
+    <p>Para o cabeçalho da tabela ficar fixo enquanto a pagina é rolada pra baixo foi utilizado o seguinte codigo:</p>  
+    <div class="imagem_center"><code><img src="img/img2.jpg" alt="codigo"></code></div>
+    <p style="padding-bottom:40px"><strong>Lorem abaixo somente para demonstrar o cabeçalho parando na tabela</strong></p>
+    <article>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem et modi quasi ad. Excepturi voluptatibus rem aperiam necessitatibus exercitationem ducimus obcaecati. Dignissimos illo, qui corporis facilis facere id ipsa nesciunt eligendi repudiandae temporibus, exercitationem velit quo tenetur cupiditate modi, rem ratione distinctio blanditiis. Neque, maiores quo totam quod nihil ut quos praesentium, cumque possimus doloremque aperiam sequi cum tenetur beatae voluptate enim consequuntur ipsam cupiditate, recusandae modi error eum voluptas! Soluta officiis architecto maiores nulla eos vel dolorum. Nam est voluptates neque ad modi quibusdam laborum alias, officiis ducimus at sapiente cumque iste cupiditate aspernatur dolorem, dolore molestiae temporibus hic!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet accusantium distinctio accusamus quaerat possimus! Deleniti voluptas eaque iure magni, dolore quia incidunt neque veniam quo! Optio, ipsum non velit tenetur recusandae, dicta officia fugiat sit molestias vitae eveniet earum, cupiditate debitis? Expedita quasi aut facere voluptatum aliquam, totam accusamus, eligendi aperiam atque quia voluptate similique asperiores debitis est autem unde quidem rem officiis non, id assumenda doloribus labore pariatur repudiandae. Nesciunt, perspiciatis laborum? Corrupti doloribus id tempore! Enim facere, consectetur culpa officia itaque ducimus quod? Iste velit voluptatem, cum inventore sed placeat impedit nisi natus voluptas error et quasi reiciendis.
+    </article>
+</body>
+</html>
