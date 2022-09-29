@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titanomaquia em HTML e CSS</title>
+    <style>
+        table{
+            width: 500px;
+            height: 500px;
+            border: 0px solid rgba(0, 0, 0, 0);
+            border-collapse: collapse;
+        }
+        tr{
+            border: 0px solid black;
+        }
+        .branco{
+            background-color: white;
+            color: white;
+            width:78px;
+        }
+        .roxo{
+            color: #7D40BD;
+            background-color: #7D40BD;
+            width: 78px ;
+        }
+        .verde{
+            color: #42B465;
+            background-color: #42B465;
+            height: 80px;
+        }
+        .azul{
+            background-color: #309FE5;
+            color: #309FE5;
+            width: 80px;
+        }
+        .vermelho{
+            background-color:#F43800 ;
+            color:#F43800
+        }
+        .amarelo{ 
+            background-color: #F4EB54;
+            color: #F4EB54;
+            width: 80px;
+            height: 80px;
+        }
+        .cinza{
+            background-color: #DBC9CD;
+            color: #DBC9CD;
+            height: 80px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="branco"></td>
+            <td class="verde"colspan="4"></td>
+            <td class="azul"rowspan="5"></td>
+        </tr>
+        <tr>
+            <td class="roxo" rowspan="5"></td>
+            <td  colspan=""class="vermelho"></td>
+        </tr>
+        <tr>
+            <td class="vermelho" colspan="4"></td>
+        </tr>
+        <tr>
+            <td class="vermelho" colspan="4"></td>
+        </tr>
+        <tr>
+            <td  class="vermelho"colspan="4"></td>
+        </tr>
+        <tr>
+            <td class="cinza" colspan="4"></td>
+            <td class="amarelo"></td>
+        </tr>
+    </table>
+</body>
+</html>
